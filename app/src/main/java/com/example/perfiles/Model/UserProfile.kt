@@ -1,5 +1,6 @@
 package com.example.perfiles.model
 
+
 data class UserProfile(
     val nombre: String,
     val programa: String,
