@@ -82,7 +82,6 @@ fun ProfileScreen(viewModel: ProfileViewModel, navController: NavController) {
             ) {
                 LazyColumn(modifier = Modifier.fillMaxWidth().padding(top = 20.dp)) {
                     item {
-                        // USAMOS EL NOMBRE NUEVO AQUÍ
                         ProfileCardItem("Descripción", user.descripcion)
                         ProfileCardItem("Ciudad", user.ciudad)
                         ProfileCardItem("Contacto", user.correo)
